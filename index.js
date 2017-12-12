@@ -13,6 +13,8 @@ class Withdrawal {
 }
 
 
+
+
 // DRIVER CODE BELOW
 // We use the code below to "drive" the application logic above and make sure it's working as expected
 
@@ -21,7 +23,7 @@ t1.commit();
 console.log('Transaction 1:', t1);
 
 t2 = new Withdrawal(9.99);
-t1.commit();
+t2.commit();
 console.log('Transaction 2:', t2);
 
 console.log('Balance:', balance);
