@@ -12,6 +12,9 @@ class Withdrawal {
 
 }
 
+
+// DRIVER CODE BELOW
+
 t1 = new Withdrawal(50.25);
 t1.commit();
 console.log('Transaction 1:', t1);
