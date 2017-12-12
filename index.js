@@ -1,7 +1,7 @@
 let balance = 500.00;
 
 class Withdrawal {
-  
+
   constructor(amount) {
     this.amount = amount;
   }
