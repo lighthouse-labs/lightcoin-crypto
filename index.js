@@ -14,10 +14,10 @@ class Withdrawal {
 
 t1 = new Withdrawal(50.25);
 t1.commit();
-console.log('Transaction 1: $', t1);
+console.log('Transaction 1:', t1);
 
 t2 = new Withdrawal(9.99);
 t1.commit();
-console.log('Transaction 2: $', t2);
+console.log('Transaction 2:', t2);
 
-console.log('Balance: $', balance);
+console.log('Balance:', balance);
